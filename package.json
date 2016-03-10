@@ -1,10 +1,10 @@
 {
   "name": "bs-config",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "",
   "main": "lib/config.js",
   "bin": {
-    "bs-config": "./bin/print.js"
+    "bs-config": "./bin/cmd.js"
   },
   "scripts": {
     "test": "node_modules/.bin/mocha test/index.js"
