@@ -4,8 +4,7 @@ var loadConfig = require('../lib/config');
 describe('basic', function() {
     it('load', function() {
         try {
-            loadConfig('test/config')
-            assert(true);
+            console.log(loadConfig('test/config'));
         }
         catch (e) {
             assert(false, e.stack);
